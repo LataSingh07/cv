@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: beige;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 20px;
+    background-color: beige;
+}
+button{
+    font-size: large;
+    padding: 15px 30px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+#grey{
+    padding: 40px 50px;
+    background-color: grey;
+    
+}
+#white{
+    padding: 40px 50px;
+    background-color: white;
+}
+#blue{
+    padding: 40px 50px;
+    background-color: blue;
+}
+#red{
+    padding: 40px 50px;
+    background-color: red;
+}
