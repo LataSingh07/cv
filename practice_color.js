@@ -17,3 +17,14 @@ buttons.forEach(function(button){
         }
     })
 })
+const nav=document.querySelector('nav')
+const home=document.querySelector("#home");
+const youtube=document.querySelector("#youtube");
+
+home.addEventListener('click',function(e){
+    nav.style.backgroundColor='pink';
+})
+
+youtube.addEventListener('click',function(e){
+    nav.style.backgroundColor='orange';
+})
