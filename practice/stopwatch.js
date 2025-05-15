@@ -4,9 +4,9 @@ let stopbtn = document.getElementById('stop');
 let resetbtn = document.getElementById('reset');
 
 let timerid = null;
-let msec = 00;
-let sec = 00;
-let min = 00;
+let msec = 0;
+let sec = 0;
+let min = 0;
 
 startbtn.addEventListener('click', function () {
     if (timerid != null) {
