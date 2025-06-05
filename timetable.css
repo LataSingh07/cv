@@ -1,0 +1,38 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f3f4f6;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #4a5568;
+  margin-bottom: 30px;
+}
+
+.timetable {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.timetable th,
+.timetable td {
+  border: 1px solid #cbd5e0;
+  padding: 12px;
+  text-align: center;
+}
+
+.timetable th {
+  background-color: #3182ce;
+  color: white;
+}
+
+.timetable td {
+  background-color: #edf2f7;
+  color: #2d3748;
+}
+
+.timetable tr:nth-child(even) td {
+  background-color: #e2e8f0;
+}
